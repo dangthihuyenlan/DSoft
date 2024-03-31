@@ -38,7 +38,7 @@
 #home{
     width: 100%;
     height: 300px;
-    background-color: rgb(245, 153, 191);
+    background-color: rgb(254,240,240);
 }
 .slider-tus{
     font-size: 200px;
@@ -49,34 +49,37 @@
     height: 500px;
 }
 #Wrap-layout{
-    background-color: white;
+    background-color: rgb(252,252,252);
     margin-top: 50px;
     padding: 12px,0 , 32px,0;
     display: flex;
     justify-content: space-around;
 }
+.Wrap-layout__conter{
+width: 60%;
+}
 
 .Wrap-layout__item{
-    width: 100px;
+    width: 150px;
     height: 50px;
-    color: white;
+    color: black;
     text-align: center;
     font-size: 20px;
-    background-color: gray;
+    background-color:rgb(239,239,239);
 }
 .Wrap-layout__item_1{
-    width: 100px;
+    width: 150px;
     height: 50px;
-    color: white;
+    color: black;
     text-align: center;
     font-size: 20px;
-    background-color: orange 
+    background-color: rgb(246,142,142);
 }
 .places-list{
 margin-top: 100px;
 width: 100%;
 height: 700px;
-background-color: gray;
+background-color: rgb(236,236,236);
 }
 .places-item-btn{
     padding: 0 8px;
@@ -178,17 +181,23 @@ height: 200px;
   .feedback__content{
     display: flex;
     align-items: center;
-    background-color: bisque;
-    padding: 50 50px;
+    gap: 60px;
+    row-gap: 60px;
+    column-gap: 60px;
+    background-color: rgb(254,240,240);
   }
   .feedback-img{
-    width: 100%;
+      width: 100%;
+      height: 300px;
+      border-radius: 8px;
+      object-fit: cover;
+       position: relative;
   }
   .feedback__desc {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    color: #fff;
+    color: #040404;
     width: 50%;
   }
   .feedback__play-btn, .feedback__pause-btn {
@@ -231,3 +240,19 @@ height: 200px;
   .feedback__author {
     margin-bottom: 0;
   }
+  .course__item{
+    font-size:;
+    width:400px;
+    height: 50px;
+    background-color: rgb(244,127,127);
+  }
+  .course__item-top{
+    padding-left: 33%;
+    
+  }
+  .course-list{
+    height: ;
+    width: 1000 px;
+    background-color:rgb(255,255,255) ;
+  }
+ 
