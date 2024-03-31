@@ -1,0 +1,233 @@
+* {
+    box-sizing: inherit;
+  }
+
+  
+  ul {
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+  }
+
+  
+  .header {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    align-items: center;
+    height: 40px;
+    color: #000000;
+  }
+  .header__nav-list{
+    padding-left: 200px;
+    min-height: 50px;
+    background-color: white;
+    display: flex;
+
+  }
+  .header__group-search{
+    justify-content: center;
+  }
+  .ti-angle-down{
+    justify-content: space-between;
+  }
+  .header__nav-item{
+    justify-content: space-between;
+  }
+#home{
+    width: 100%;
+    height: 300px;
+    background-color: rgb(245, 153, 191);
+}
+.slider-tus{
+    font-size: 200px;
+}
+#content{
+    background-color: white;
+    width: 100%;
+    height: 500px;
+}
+#Wrap-layout{
+    background-color: white;
+    margin-top: 50px;
+    padding: 12px,0 , 32px,0;
+    display: flex;
+    justify-content: space-around;
+}
+
+.Wrap-layout__item{
+    width: 100px;
+    height: 50px;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    background-color: gray;
+}
+.Wrap-layout__item_1{
+    width: 100px;
+    height: 50px;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    background-color: orange 
+}
+.places-list{
+margin-top: 100px;
+width: 100%;
+height: 700px;
+background-color: gray;
+}
+.places-item-btn{
+    padding: 0 8px;
+    background-color: white;
+}
+.places-item{
+float: left;
+width: 30%;
+padding: 0 8px;
+}
+.places-img{
+width: 100%;
+padding:  8 8px;
+padding-top: 8px;
+}
+.places-content{
+
+}
+.places-heading{
+
+}
+.band-node{
+background-color: pink;
+width: 80%;
+height: 200px;
+
+}
+.band-list{
+    background-color: white;
+    padding-left: 25%;
+    
+}
+.band-item{
+    width: 100px;
+   
+}
+.footer {
+    background-color: #282834;
+    padding-top: 66px;
+    color: #fff;
+  }
+  .footer__col {
+    margin-bottom: 30px;
+  }
+  .footer__heading {
+    margin-bottom: 28px;
+  }
+  .footer__item {
+    padding: 8px 0;
+  }
+  .footer__item a {
+    color: #ccc;
+  }
+  .footer__license {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    border-top: 1px solid #ffff;
+    padding: 18px 0;
+  }
+  .footer__license-title {
+    margin-bottom: 0;
+    color: #ccc;
+    text-align: center;
+    font-size: 1.2rem;
+  }
+  .footer__social {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  .footer__social-item {
+    display: flex;
+    align-items: center;
+    padding: 8px;
+    font-size: 1.8rem;
+  }
+  .footer__social-item a {
+    display: flex;
+    align-items: center;
+    color: #ccc;
+    text-decoration: none;
+  }
+  .feedback {
+    background-color: #fff;
+    padding-bottom: 46px;
+  }
+  .feedback .content__title {
+    color: #fff;
+  }
+  .feedback__group-btn {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+  }
+  
+  
+  .feedback__content{
+    display: flex;
+    align-items: center;
+    background-color: bisque;
+    padding: 50 50px;
+  }
+  .feedback-img{
+    width: 100%;
+  }
+  .feedback__desc {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    color: #fff;
+    width: 50%;
+  }
+  .feedback__play-btn, .feedback__pause-btn {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    border: none;
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    transition: opacity ease-in-out 0.2s;
+  }
+  .feedback__play-btn:hover, .feedback__pause-btn:hover {
+    opacity: 0.9;
+  }
+  .feedback__pause-btn {
+    display: none;
+  }
+  .feedback__pause-icon, .feedback__play-icon {
+    position: relative;
+    color: #f46962;
+    font-size: 2.4rem;
+  }
+  .feedback__play-icon {
+    left: 2px;
+  }
+
+  .feedback__detail {
+    font-size: 2.4rem;
+    font-style: italic;
+    margin-bottom: 20px;
+    margin-right: 140px;
+    text-align: justify;
+  }
+  .feedback__author {
+    margin-bottom: 0;
+  }
